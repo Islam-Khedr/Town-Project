@@ -1,0 +1,418 @@
+
+/*
+
+The Town Project
+
+*/
+
+html {
+    font-size: 18px;
+  }
+
+
+body {
+    color: #8f8f8f;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+/*
+
+.nav {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.384);
+    width: 100%;
+    transition: 0.3s ease-in-out;
+
+}
+
+  .scroll {
+    background-color:transparent;
+    }
+
+    */
+    
+
+    /* Hero Section */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3em;
+    width: 100%;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 12px 18px;
+    box-shadow: 0px 4px 7px rgba(119, 119, 119, 0.534);
+    transition: background-color 0.4s ease-out;
+    z-index: 2;
+    }
+
+    nav.scroll {
+    background-color: #e0dedec9;
+}
+
+.hero {
+    background-image: url(/img/the-town-bg-01.jpg);
+    height: 640px;
+    width: 1370px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 375px;
+}
+
+.nav-title {
+    position: relative;
+    left: 30px;
+    top: -32px;
+    color: rgb(78, 75, 75);
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.nav-links {
+    position:absolute;
+    display: flex;
+    right: 60px;
+    top: -20px;
+    color: rgb(78, 75, 75);
+    font-size: 24px;
+    font-weight: normal;
+    text-indent: 60px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4c96cb;
+}
+
+a {
+    color: white;
+}
+
+.slide-text {
+    color: black;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-top: -510px;
+    color: white;
+}
+
+.hero-h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: -30px;
+}
+    /* Hero Section End */
+
+
+    /* Split Screen Section */
+.split-screen {
+    margin-top: 430px;
+}
+
+.split-screen-container-left {
+        margin-left: 30px;    
+
+}
+
+.split-screen-container-right {
+    position: relative;
+    left: 730px;
+    top: -450px;
+}
+
+
+.split-screen-container-text h3 {
+    color: #3496d8;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.split-screen-container-text > p {
+    font-size: 22px;
+
+}
+
+.split-screen-container-text p span {
+
+    font-weight: bold;
+
+}
+
+.split-screen-container-text p a {
+    color: #3496d8;
+}
+
+.split-screen-container-text p a:hover {
+    color: #256d9c;
+}
+
+.split-screen-container-btn {
+    box-sizing: border-box;
+    text-align: center;
+    width: 175px;
+    background-color: #3496d8;
+    padding: 12px;
+    border-radius: 35px;
+    font-size: 24px;
+}
+
+.split-screen-container-btn:hover {
+
+    color: #f1f1f1;
+    background-color: #73c1f6;
+
+}
+
+.split-screen-container-btn a:hover {
+    color: white;
+}
+    /* Split Screen Section End */
+
+
+
+    /* Icons & Description Section */
+.icons-des {
+    column-count: 3;
+    column-gap: 50px;
+    margin: -300px 30px 0px 30px;
+}
+
+.icons-des-cols > div h4 {
+    color: #3496d8;
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.col-1 {
+margin-top: -30px;
+}
+
+.col-1 i {
+    margin-top: 30px;
+    }
+
+.col-2 {
+    margin-top: 50px;
+    }
+
+
+.col-2 i {
+        margin-top: -10px;  
+    }
+
+.icons-des-cols i {
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+    margin-bottom: 45px;
+    width: 80px;
+    height: 80px;
+    }
+
+.icons-des-cols p {
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+    }
+    /* Icons & Description Section End */
+
+
+
+    /* Our Work Section */
+.our-work-title {
+    color: #3496d8;
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.our-work-text {
+    text-align: center;
+    margin: auto;
+}
+    /* Our Work Section End */
+
+
+    /* Our Work Slick Slider Section */
+.mainslider {
+    background-color: #333;
+    height: 350px;
+    margin-bottom: 120px;
+}
+
+.slickslider {
+    width: 93%;
+    margin: auto;
+    background-color: #d6d6d6;
+    height: 350px;
+}
+
+.item {
+    margin-top: 10px;
+    margin-left: 12px;
+    text-align: center;
+    line-height: 350px;  
+}
+    /* Our Work Slick Slider Section End */
+
+
+
+    /* Contact Us Section */
+    .contact {
+        background-image: url(/img/the-town-bg-02.jpg);
+        color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 650px;
+        position: relative;
+        padding-top: 160px;
+        background-attachment: fixed;
+    }
+
+
+.contact-container-row-h2 {
+    font-size: 50px;
+    font-weight: normal;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+
+.contact-container-row-underline {
+    border-top: 2px solid white;
+    height: 8px;
+    width: 80%;
+    margin: auto;
+}
+
+.contact-container-row-underline-inner {
+    background: white;
+    height: 8px;
+    width: 25%;
+}
+
+
+.contact-container-row-p {
+    margin-left: 130px;
+    margin-top: 50px;
+
+}
+
+
+.contact-container-row2 {
+    margin-left: 130px;
+    margin-top: 60px;
+
+}
+
+.contact-container-row2 a {
+    transition: all 0.6s ease;
+
+}
+
+
+.contact-container-row3 {
+    display: flex;
+    margin-left: 650px;
+    margin-top: -55px;
+
+}
+
+.contact-container-row3 i {
+    margin: 0px 10px 0px 0px;
+
+}
+
+.contact-container-row3 a {
+    transition: all 0.6s ease;
+}
+
+
+
+.contact-container-row4 {
+    margin-left: 130px;
+    margin-top: 60px;
+
+}
+
+.contact-container-row4 a {
+    transition: all 0.6s ease;
+
+}
+
+.contact-container-row5 {
+    display: flex!important;
+    margin-left: 650px;
+    margin-top: -25px;
+    margin-bottom: 75px;
+}
+
+/*      align-items: center!important;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: left;
+
+    */
+.input-mail {
+    padding: 8px 25px;
+    border-radius: 3px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: visible;
+}
+
+.input-btn-submit {
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 8px 32px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    font-family: inherit;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    color: rgb(22, 22, 22);
+
+}
+
+.input-btn-submit:hover {
+    background-color: rgba(214, 213, 213, 0.726);
+
+}
+
+
+.footer {
+    text-align: center;
+    color: white;
+    margin-top: 125px;
+}
+
+.footer a {
+    color: rgb(255, 251, 0);
+}
